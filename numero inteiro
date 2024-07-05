@@ -1,0 +1,7 @@
+num=int(input("Digite o primeiro numero :"))    
+num2=int(input("Digite o segundo numero :"))    
+num3=float(input("Digite o terceiro numero (real) :"))
+num4=num*(num2/2)  
+num5=(num*3)+num3
+num6=num3**3
+print('O produto do primeiro numero com a metade do segundo é {} . A soma do triplo do primeiro com o terceiro é {}. O terceiro umero digitado ao cubo é {}.'.format(num4,num5,num6))

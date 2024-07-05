@@ -1,0 +1,10 @@
+num=int(input("Digite um numero: "))
+num2=int(input("Digite outro numero: "))
+num3=num-num2
+num4=num2-num
+if num>=num2:
+    print("Esse e o maior numero",num)
+    print("E essa e a diferença entre eles",num3)
+else:
+    print("Esse e o maior numero",num2)
+    print("E essa e a diferença entre eles",num4)

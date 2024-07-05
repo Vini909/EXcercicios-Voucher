@@ -1,0 +1,7 @@
+num=int(input("Digite um numero: ")) 
+num2=num**2
+num3=num**0.5
+if num>0:    
+    print("Esse é o numero numero digitado ao quadrado{} é esse e ele em raiz quadrada {}".format(num2,num3))
+else:
+    print("Esse numero e negativo digite outro")

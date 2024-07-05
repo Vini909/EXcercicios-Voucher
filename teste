@@ -1,0 +1,4 @@
+num=int(input("Escreva um numero de até 3 digitos: "))
+texto=float(num)
+print(type(texto))
+print(texto)
